@@ -1,0 +1,80 @@
+.landing-page {
+  background-image: url('http://localhost:3000/images/image.jpg'); /* Adjust based on your local server */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    /* Adjusted for the public folder */
+    background-size: cover; /* Ensures the background image covers the entire area */
+    background-position: center; /* Centers the background image */
+    padding-bottom: 100px;
+  }
+
+  
+  
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+    border-radius: 10px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4500;
+  }
+  
+  .features-section {
+    margin-top: 50px;
+  }
+  
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .feature-item {
+    width: 25%;
+    padding: 20px;
+    background-color: #eaeaea;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .feature-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
